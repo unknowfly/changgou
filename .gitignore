@@ -22,7 +22,6 @@ test/unit/coverage
 test/e2e/reports
 selenium-debug.log
 
-.idea
 .vscode
 *.suo
 *.ntvs*
@@ -31,9 +30,6 @@ selenium-debug.log
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Runtime data
 pids
@@ -63,7 +59,6 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # Typescript v1 declaration files
@@ -85,8 +80,19 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.DS_Store
 .coverage
 
-download/
+*.iml
+out
+gen
+/.apt_generated/
+/.classpath
+/.factorypath
+/.project
+/.settings/
+/.springBeans
+/target/
+/.gitignore
+/user-profile-analysis.iml
+/.idea
+/README.md
